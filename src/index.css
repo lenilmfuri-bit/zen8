@@ -1,0 +1,35 @@
+/* ZenUltim8 - Global Styles */
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Cormorant+Garamond:wght@400;500;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Cormorant Garamond', serif;
+  background: #0a0806;
+  color: #ede0c4;
+  overflow-x: hidden;
+}
+
+.cin {
+  font-family: 'Cinzel', serif;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.cgm {
+  font-family: 'Cormorant Garamond', serif;
+}
+
+@keyframes heartGlow {
+  0%, 100% { filter: drop-shadow(0 0 8px #C9A84C); }
+  50% { filter: drop-shadow(0 0 20px #C9A84C); }
+}
+
+@keyframes amberPulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.7; }
+}
